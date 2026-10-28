@@ -2,7 +2,7 @@ Package: discoCVI
 Type: Package
 Title: Implementation of the DISCO Metric for Internal Clustering
         Evaluation
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
     person("Amin", "Entezari",
            email   = "amin_entezari@outlook.com",
@@ -37,12 +37,13 @@ Language: en-GB
 Depends: R (>= 3.6.0)
 Imports: FNN, Rcpp, stats
 LinkingTo: Rcpp
-Suggests: dbscan, testthat (>= 3.0.0)
+Suggests: dbscan, knitr, rmarkdown, testthat (>= 3.0.0)
+VignetteBuilder: knitr
 RoxygenNote: 7.3.3
 URL: https://github.com/aminentezari/discoCVI
 BugReports: https://github.com/aminentezari/discoCVI/issues
 NeedsCompilation: yes
-Packaged: 2026-10-27 21:17:09 UTC; aminentezari
+Packaged: 2026-10-28 07:32:41 UTC; aminentezari
 Author: Amin Entezari [aut, cre] (ORCID:
     <https://orcid.org/0009-0005-4733-6032>),
   Davide Chicco [ctb] (ORCID: <https://orcid.org/0000-0001-9655-7142>,
@@ -52,4 +53,4 @@ Author: Amin Entezari [aut, cre] (ORCID:
   Pascal Weber [aut] (Original Python implementation (arXiv:2503.00127))
 Maintainer: Amin Entezari <amin_entezari@outlook.com>
 Repository: CRAN
-Date/Publication: 2026-10-27 21:40:08 UTC
+Date/Publication: 2026-10-28 10:00:18 UTC
